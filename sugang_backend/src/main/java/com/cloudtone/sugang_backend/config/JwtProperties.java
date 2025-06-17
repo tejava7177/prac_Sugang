@@ -1,4 +1,4 @@
-package com.cloudtone.sugang_backend.config.jwt;
+package com.cloudtone.sugang_backend.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.cloudtone.sugang_backend.config.jwt;
+package com.cloudtone.sugang_backend.config;
 
 import io.jsonwebtoken.Header;
 import io.jsonwebtoken.Jwts;
