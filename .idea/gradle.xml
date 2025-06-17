@@ -7,7 +7,7 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/sugang_backend" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/sugang_backend" />
+            <option value="$PROJECT_DIR$/../../하은/prac_Sugang/sugang_backend" />
           </set>
         </option>
       </GradleProjectSettings>
