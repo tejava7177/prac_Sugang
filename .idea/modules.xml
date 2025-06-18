@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/prac_Sugang.iml" filepath="$PROJECT_DIR$/.idea/prac_Sugang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sugang_backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sugang_backend.main.iml" />
     </modules>
   </component>
 </project>
