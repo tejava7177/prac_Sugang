@@ -1,0 +1,19 @@
+# macOS 시스템 파일
+.DS_Store
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# Node.js 프로젝트
+node_modules/
+
+# IDE 관련
+.vscode/
+.idea/
+
+# 로그 파일
+*.log
+
+
+*.xml
