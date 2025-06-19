@@ -1,6 +1,9 @@
 package com.cloudtone.sugang_backend.domain;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import jakarta.persistence.*;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter

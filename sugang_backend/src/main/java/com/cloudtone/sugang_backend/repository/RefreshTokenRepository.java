@@ -1,6 +1,7 @@
 package com.cloudtone.sugang_backend.repository;
 
 import com.cloudtone.sugang_backend.domain.RefreshToken;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
