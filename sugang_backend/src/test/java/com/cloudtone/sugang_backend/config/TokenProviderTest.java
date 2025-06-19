@@ -1,5 +1,7 @@
 package com.cloudtone.sugang_backend.config;
 
+import com.cloudtone.sugang_backend.config.jwt.JwtProperties;
+import com.cloudtone.sugang_backend.config.jwt.TokenProvider;
 import io.jsonwebtoken.Jwts;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

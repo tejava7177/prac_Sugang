@@ -1,4 +1,4 @@
-package com.cloudtone.sugang_backend.config;
+package com.cloudtone.sugang_backend.config.jwt;
 
 import lombok.Getter;
 import lombok.Setter;

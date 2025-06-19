@@ -1,4 +1,4 @@
-package com.cloudtone.sugang_backend.Service;
+package com.cloudtone.sugang_backend.service;
 
 import com.cloudtone.sugang_backend.domain.User;
 import com.cloudtone.sugang_backend.repository.UserRepository;

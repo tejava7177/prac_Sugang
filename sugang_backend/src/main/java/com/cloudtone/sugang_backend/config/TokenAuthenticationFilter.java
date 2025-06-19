@@ -1,6 +1,5 @@
 package com.cloudtone.sugang_backend.config.jwt;
 
-import com.cloudtone.sugang_backend.config.TokenProvider;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
