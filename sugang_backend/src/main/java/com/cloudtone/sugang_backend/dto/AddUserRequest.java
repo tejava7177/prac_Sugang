@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class AddUserRequest {
+public class AddUserRequest { // 학생 정보를 담고 있는 객체
     private String studentNumber;
     private String password;
     private String name;

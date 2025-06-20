@@ -18,6 +18,8 @@ public class Course {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    // ManyToOne        : 다대일 관계 + 외래키 자동 연결
+    // optional = false :  NULL 불가
     @ManyToOne(optional = false)
     private User user;
 
