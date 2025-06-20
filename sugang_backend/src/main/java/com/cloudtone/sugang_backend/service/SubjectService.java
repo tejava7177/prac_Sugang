@@ -16,14 +16,15 @@ public class SubjectService {
 
     private final SubjectRepository subjectRepository;
 
-    public Long save(SubjectRequest request) {
+    public Subject save(SubjectRequest request) {
         Subject subject = Subject.builder()
                 .subjectName(request.getSubjectName())
                 .subjectCode(request.getSubjectCode())
                 .professor(request.getProfessor())
                 .grade(request.getGrade())
                 .build();
-        return subjectRepository.save(subject).getSubjectId();
+        // return subjectRepository.save(subject).getSubjectId();
+        return subjectRepository.save(subject); // 저장된 Subject 객체 반환
     }
 
     public List<Subject> findAll() {
