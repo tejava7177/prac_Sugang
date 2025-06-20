@@ -1,3 +1,4 @@
+/*
 package com.cloudtone.sugang_backend.service;
 
 import com.cloudtone.sugang_backend.domain.User;
@@ -27,3 +28,4 @@ public class UserService {
     }
 
 }
+*/
