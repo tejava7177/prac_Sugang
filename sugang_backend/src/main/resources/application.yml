@@ -1,6 +1,13 @@
 spring:
+  security:
+    user:
+      name: user
+      password: 1234
   jpa:
+    hibernate:
+      ddl-auto: create-drop
     show-sql: true
+
     properties:
       hibernate:
         format_sql: true
@@ -8,7 +15,11 @@ spring:
     defer-datasource-initialization: true
   datasource:
     url: jdbc:h2:mem:testdb # 메모리에 testdb 생성
+    username: sa
+    password: 1234
+
   h2:
     console:
       enabled: true
+
 
