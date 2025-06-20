@@ -19,7 +19,7 @@ public class SugangController {
     private final SubjectService subjectService;
     private final UserDetailService userDetailService;
 
-    // 회원 등록
+    // 회원 등록, 회원가입?
     @PostMapping("api/User")
     public void addUser(){
 
