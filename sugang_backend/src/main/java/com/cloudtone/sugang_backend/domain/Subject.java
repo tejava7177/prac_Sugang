@@ -6,6 +6,14 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+/*
+    과목 고유번호 (Primary Key) : 각 과목을 식별하는 유일한 값
+    과목명 : 어떤 과목인지 식별하는 기본 정보
+    과목 코드(교과목 번호) : 대학 시스템에서 과목을 구분하는 공식 코드 (중복 가능성은 있지만 거의 필수)
+    담당 교수 (Foreign Key) : 강의를 맡은 교수를 지정 (필수, 하지만 경우에 따라 NULL 허용 가능)
+    학점: 학생과 학교에 모두 중요한 정보
+*/
+
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
