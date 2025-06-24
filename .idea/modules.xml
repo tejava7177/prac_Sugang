@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.cloudTone.sugang_backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.cloudTone.sugang_backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/prac_Sugang.iml" filepath="$PROJECT_DIR$/.idea/prac_Sugang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prac_Sugang.sugang_backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/prac_Sugang.sugang_backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sugang_backend.iml" filepath="$PROJECT_DIR$/.idea/modules/sugang_backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sugang_backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sugang_backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sugang_backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sugang_backend.test.iml" />
