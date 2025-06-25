@@ -657,3 +657,13 @@ INSERT INTO subject (subject_name, subject_code, professor, grade) VALUES ('로�
 INSERT INTO subject (subject_name, subject_code, professor, grade) VALUES ('현대민주주의의이해', '13281', '조화성', 3);
 INSERT INTO subject (subject_name, subject_code, professor, grade) VALUES ('안보학(ROTC)', '13045', '학군단', 2);
 INSERT INTO subject (subject_name, subject_code, professor, grade) VALUES ('조직리더십(ROTC)', '13083', '학군단', 2);
+INSERT INTO users (student_number, password, name) VALUES ('20210001', 'pass01!', '홍길동');
+INSERT INTO users (student_number, password, name) VALUES ('20210002', 'pass02!', '김철수');
+INSERT INTO users (student_number, password, name) VALUES ('20210003', 'pass03!', '이영희');
+INSERT INTO users (student_number, password, name) VALUES ('20210004', 'pass04!', '박지민');
+INSERT INTO users (student_number, password, name) VALUES ('20210005', 'pass05!', '최유리');
+INSERT INTO users (student_number, password, name) VALUES ('20210006', 'pass06!', '장도연');
+INSERT INTO users (student_number, password, name) VALUES ('20210007', 'pass07!', '윤하늘');
+INSERT INTO users (student_number, password, name) VALUES ('20210008', 'pass08!', '백승훈');
+INSERT INTO users (student_number, password, name) VALUES ('20210009', 'pass09!', '정세윤');
+INSERT INTO users (student_number, password, name) VALUES ('20210010', 'pass10!', '한예진');
