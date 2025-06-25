@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>과목 상세</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body class="gradient-custom">
+<div class="container mt-5">
+    <h2 class="mb-4">과목 상세</h2>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title" th:text="${subject.name}"></h4>
+            <h6 class="card-subtitle mb-2 text-muted" th:text="${subject.professor}"></h6>
+            <p class="card-text">학점: <span th:text="${subject.credit}"></span></p>
+            <p class="card-text">설명: <span th:text="${subject.description}"></span></p>
+            <form th:action="@{'/courses/apply'}" method="post">
+                <input type="hidden" name="subjectId" th:value="${subject.id}" />
+                <button type="submit" class="btn btn-success">수강 신청</button>
+            </form>
+            <a href="/subjects" class="btn btn-secondary mt-2">목록으로</a>
+        </div>
+    </div>
+</div>
+</body>
+</html> 

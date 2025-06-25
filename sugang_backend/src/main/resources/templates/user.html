@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>사용자 정보</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body class="gradient-custom">
+<div class="container mt-5">
+    <h2 class="mb-4">사용자 정보</h2>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title" th:text="${user.name}"></h4>
+            <p class="card-text">학번: <span th:text="${user.studentNumber}"></span></p>
+            <p class="card-text">이메일: <span th:text="${user.email}"></span></p>
+        </div>
+    </div>
+    <a href="/subjects" class="btn btn-secondary mt-3">과목 목록</a>
+</div>
+</body>
+</html> 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>내 수강신청 내역</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body class="gradient-custom">
+<div class="container mt-5">
+    <h2 class="mb-4">내 수강신청 내역</h2>
+    <table class="table table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>과목명</th>
+            <th>교수명</th>
+            <th>학점</th>
+            <th>신청 취소</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="course : ${courses}">
+            <td th:text="${course.subjectName}"></td>
+            <td th:text="${course.professor}"></td>
+            <td th:text="${course.credit}"></td>
+            <td>
+                <form th:action="@{'/courses/' + ${course.id}}" method="post">
+                    <input type="hidden" name="_method" value="delete" />
+                    <button type="submit" class="btn btn-danger btn-sm">취소</button>
+                </form>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <a href="/subjects" class="btn btn-secondary">과목 목록</a>
+</div>
+</body>
+</html> 
