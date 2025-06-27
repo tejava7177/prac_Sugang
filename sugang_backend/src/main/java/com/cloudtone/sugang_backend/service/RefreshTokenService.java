@@ -2,6 +2,7 @@ package com.cloudtone.sugang_backend.service;
 
 import com.cloudtone.sugang_backend.domain.RefreshToken;
 import com.cloudtone.sugang_backend.repository.RefreshTokenRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor

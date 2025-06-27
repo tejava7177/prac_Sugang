@@ -2,6 +2,7 @@ package com.cloudtone.sugang_backend.service;
 
 import com.cloudtone.sugang_backend.config.jwt.TokenProvider;
 import com.cloudtone.sugang_backend.domain.User;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;

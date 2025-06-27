@@ -3,6 +3,12 @@ package com.cloudtone.sugang_backend.controller;
 import com.cloudtone.sugang_backend.dto.CreateAccessTokenRequest;
 import com.cloudtone.sugang_backend.dto.CreateAccessTokenResponse;
 import com.cloudtone.sugang_backend.service.TokenService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
